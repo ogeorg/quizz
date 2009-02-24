@@ -1,0 +1,68 @@
+<?xml version='1.0' ?>
+<quizz>
+	<sqp name='singplur'>
+		<p>sing</p>
+		<p>plur</p>
+	</sqp>
+	<sqp name='subj_nor'>
+		<p>Ni</p>
+		<p>Hi</p>
+		<p>Hura</p>
+		<p>Gu</p>
+		<p>Zu</p>
+		<p>Zuek</p>
+		<p>Haiek</p>
+	</sqp>
+	<sqp name='subj_nork'>
+		<p>Nik</p>
+		<p>Hik</p>
+		<p>Hark</p>
+		<p>Guk</p>
+		<p>Zuk</p>
+		<p>Zuek</p>
+		<p>Haiek</p>
+	</sqp>
+	<q qp='Ukan/Orain'>
+		<q qp='Nork'>
+			<q qp='nik'>
+				<q qp='sing'>dut</q>
+				<q qp='plur'>ditut</q>
+			</q>
+			<q qp='hark' sqp_name='singplur'>
+				<q>du</q>
+				<q>ditu</q>
+			</q>
+		</q>
+		<q qp='Nor-nork' sqp_name='subj_nork'>
+			<q sqp_name='subj_nor'>
+				<q>#</q>
+				<q>Haut</q>
+				<q>Dut</q>
+			</q>
+		</q>
+		<q qp='Nor-nork' sqp_name='subj_nor'>
+			<q sqp_name='subj_nork'>
+				<q>#</q>
+				<q>Nauk/n</q>
+				<q>Nau</q>
+				<q>#</q>
+				<q>Nauzu</q>
+				<q>Nauzue</q>
+				<q>Naute</q>
+			</q>
+			<q sqp_name='subj_nork'>
+				<q>Haut</q>
+				<q>#</q>
+				<q>Hau</q>
+				<q>Haugu</q>
+				<q>#</q>
+				<q>#</q>
+				<q>Haute</q>
+			</q>
+		</q>
+	</q>
+	<q qp='Meses'>
+		<q qp='Enero'>Urtaila</q>
+		<q qp='Febrero'>Otsaila</q>
+	</q>
+</quizz>

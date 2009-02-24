@@ -1,0 +1,199 @@
+<?xml version='1.0' ?>
+<quizzes>
+	<sqp name='singplur'>
+		<p>Sing</p>
+		<p>Plur</p>
+	</sqp>
+	<sqp name='subj_nor'>
+		<p>Ni</p>
+		<p>Hi</p>
+		<p>Hura</p>
+		<p>Gu</p>
+		<p>Zu</p>
+		<p>Zuek</p>
+		<p>Haiek</p>
+	</sqp>
+	<sqp name='subj_nork'>
+		<p>Nik</p>
+		<p>Hik</p>
+		<p>Hark</p>
+		<p>Guk</p>
+		<p>Zuk</p>
+		<p>Zuek</p>
+		<p>Haiek</p>
+	</sqp>
+	<quizz name='Ukan / Nork / Orain'>
+		<q qp='Nik'>
+			<q qp='sing'>dut</q>
+			<q qp='plur'>ditut</q>
+		</q>
+		<q qp='Hark' sqp_name='singplur'>
+			<q>du</q>
+			<q>ditu</q>
+		</q>
+		<q qp='Guk'>
+			<q qp='sing'>dugu</q>
+			<q qp='plur'>ditugu</q>
+		</q>
+		<q qp='Zuk'>
+			<q qp='sing'>duzu</q>
+			<q qp='plur'>dituzu</q>
+		</q>
+		<q qp='Zuek'>
+			<q qp='sing'>duzue</q>
+			<q qp='plur'>dituzue</q>
+		</q>
+		<q qp='Haiek'>
+			<q qp='sing'>dute</q>
+			<q qp='plur'>dituzte</q>
+		</q>
+	</quizz>
+	<quizz name='Ukan / Nor-Nork / Orainaldia'>
+		<q sqp_name='subj_nork'>
+			<q sqp_name='subj_nor'><!-- Nik -->
+				<q>#</q>
+				<q include='False'>Haut</q>
+				<q>Dut</q>
+				<q>Gaitut</q>
+				<q>Zaitut</q>
+				<q>Zaituztet</q>
+				<q>Ditut</q>
+			</q>
+			<q include='False' sqp_name='subj_nor'><!-- Hik -->
+				<q>Nauk/n</q>
+				<q>#</q>
+				<q>Duk/n</q>
+				<q>Gaituk/n</q>
+				<q>#</q>
+				<q>#</q>
+				<q>Dituk/n</q>
+			</q>
+			<q sqp_name='subj_nor'><!-- Hark -->
+				<q>Nau</q>
+				<q include='False'>Hau</q>
+				<q>Du</q>
+				<q>Gaitu</q>
+				<q>Zaitu</q>
+				<q>Zaituzte</q>
+				<q>Ditu</q>
+			</q>
+			<q sqp_name='subj_nor'><!-- Guk -->
+				<q>#</q>
+				<q include='False'>Haugu</q>
+				<q>Dugu</q>
+				<q>#</q>
+				<q>Zaitugu</q>
+				<q>Zaituztegu</q>
+				<q>Ditugu</q>
+			</q>
+			<q sqp_name='subj_nor'><!-- Zuk -->
+				<q>Nauzu</q>
+				<q include='False'>#</q>
+				<q>Duzu</q>
+				<q>Gaituzu</q>
+				<q>#</q>
+				<q>#</q>
+				<q>Dituzu</q>
+			</q>
+			<q sqp_name='subj_nor'><!-- Zuek -->
+				<q>Nauzue</q>
+				<q include='False'>#</q>
+				<q>Duzue</q>
+				<q>Gaituzue</q>
+				<q>#</q>
+				<q>#</q>
+				<q>Dituzue</q>
+			</q>
+			<q sqp_name='subj_nor'><!-- Haiek -->
+				<q>Naute</q>
+				<q include='False'>Haute</q>
+				<q>Dute</q>
+				<q>Gaituzte</q>
+				<q>Zaituzte</q>
+				<q>Zaituztete</q>
+				<q>Dituzte</q>
+			</q>
+		</q>
+	</quizz>
+	<quizz name='Ukan / Nor-Nork / Lehenaldia'>
+		<q sqp_name='subj_nork'>
+			<q sqp_name='subj_nor'><!-- Nik -->
+				<q>#</q>
+				<q include='False'>Hindudan</q>
+				<q>Nuen</q>
+				<q>Gintudan</q>
+				<q>Zintudan</q>
+				<q>Zintuztedan</q>
+				<q>Nituen</q>
+			</q>
+			<q include='False' sqp_name='subj_nor'><!-- Hik -->
+				<q>#</q>
+				<q>#</q>
+				<q>#</q>
+				<q>#</q>
+				<q>#</q>
+				<q>#</q>
+				<q>#</q>
+			</q>
+			<q include='False' sqp_name='subj_nor'><!-- Hark -->
+				<q>Ninduen</q>
+				<q include='False'>Hinduen</q>
+				<q>Zuen</q>
+				<q>Gintuen</q>
+				<q>Zintuen</q>
+				<q>Zintuzten</q>
+				<q>Zituen</q>
+			</q>
+			<q sqp_name='subj_nor'><!-- Guk -->
+				<q>#</q>
+				<q include='False'>#Hindugun</q>
+				<q>Genuen</q>
+				<q>#</q>
+				<q>Zintugun</q>
+				<q>Zintuztegun</q>
+				<q>Genituen</q>
+			</q>
+			<q sqp_name='subj_nor'><!-- Zuk -->
+				<q>Ninduzun</q>
+				<q>#</q>
+				<q>Zenuen</q>
+				<q>Gintuzun</q>
+				<q>#</q>
+				<q>#</q>
+				<q>Zuenituen</q>
+			</q>
+			<q sqp_name='subj_nor'><!-- Zuek -->
+				<q>Ninduzuen</q>
+				<q include='False'>#</q>
+				<q>Zenuten</q>
+				<q>Gintuzuen</q>
+				<q>#</q>
+				<q>#</q>
+				<q>Zenituzten</q>
+			</q>
+			<q sqp_name='subj_nor'><!-- Haiek -->
+				<q>Ninduten</q>
+				<q include='False'>#Hinduten</q>
+				<q>Zuten</q>
+				<q>Gintuzten</q>
+				<q>Zintuzten</q>
+				<q>Zintuzteten</q>
+				<q>Zituzten</q>
+			</q>
+		</q>
+	</quizz>
+	<quizz name="Meses">
+		<q qp='Enero'>Urtarrila</q>
+		<q qp='Febrero'>Otsaila</q>
+		<q qp='Marzo'>Martxoa</q>
+		<q qp='Abril'>Apirila</q>
+		<q qp='Mayo'>Maiatza</q>
+		<q qp='Junio'>Ekaina</q>
+		<q qp='Julio'>Uztaila</q>
+		<q qp='Agosto'>Abuztua</q>
+		<q qp='Septiembre'>Iraila</q>
+		<q qp='Octubre'>Urria</q>
+		<q qp='Noviembre'>Azaroa</q>
+		<q qp='Diciembre'>Abendua</q>
+	</quizz>
+</quizzes>
